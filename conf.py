@@ -27,8 +27,6 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 
-extensions = ["myst_parser"]
-
-extensions = ["sphinx_copybutton"]
+extensions = ["myst_parser","sphinx_copybutton"]
 
 html_theme = 'sphinx_rtd_theme'
